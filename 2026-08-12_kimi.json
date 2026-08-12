@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-12",
+  "generated_at_et": "08:45",
+  "as_of_et": "2026-08-11 16:00",
+  "market_session": "closed",
+  "overnight": {
+    "summary": "US closed red Tuesday (S&P -0.24% to 7,734.77, Nasdaq -0.55%, Dow -0.16%) as US-Iran optimism faded and megacap tech dragged ahead of Wednesday's CPI [^1^]. Strait of Hormuz still blocked into week three — transits ~2/day vs 130-140 norm, US counter-reparations demand has frozen talks — Brent held ~$87.7-87.9 after Monday's +5%, WTI ~$82.2; Jazan refinery restart delayed to 8/30 after Houthi attacks [^2^][^3^]. Gold $4,448.6 (+1.1%), 10Y 4.69%, VIX 15.28 [^1^][^10^]. Asia Wednesday morning: Kospi +1.5% to 6,391.71 after Korea's Aug 1-10 exports printed +45.3% y/y with semiconductors +155.4% [^6^][^7^]. Tuesday's US tape was light-volume (book RVOL 0.4-0.9) and defensive — energy led (XLE +1.25%), Alphabet/Amazon lagged.",
+    "implication": "CPI 08:30 is the day's binary: hot core revives Sept-hike pricing and compresses extended-megacap multiples (MSFT RSI 78); cool core puts cuts back on the table and risk-on resumes — keep size small into the print, memory/equipment strength (Korea data) is the offsetting long."
+  },
+  "macro_calendar": [
+    {
+      "event": "CPI (July)",
+      "datetime_et": "2026-08-12 08:30",
+      "consensus": "headline +0.1% m/m / 3.4% y/y; core +0.2% m/m / 2.5% y/y [^4^][^5^]",
+      "implication": "hot core -> Sept hike repricing, multiple compression, cut size; cool core -> cuts back in play, risk-on"
+    },
+    {
+      "event": "PPI (July)",
+      "datetime_et": "2026-08-13 08:30",
+      "consensus": null,
+      "implication": "pipeline inflation check; hot PPI after hot CPI compounds the hawkish repricing (consensus not verified at generation time)"
+    },
+    {
+      "event": "AMAT FQ3 earnings (book catalyst)",
+      "datetime_et": "2026-08-13 16:05",
+      "consensus": "rev ~$8.95B [^20^]",
+      "implication": "WFE read-through for SMH/LRCX/EUV/DRAM sleeve"
+    }
+  ],
+  "sector_rotation": [
+    {
+      "sector": "energy (XLE)",
+      "day_change_pct": 1.25,
+      "week_change_pct": 4.12,
+      "read": "leading",
+      "note": "Hormuz premium + Jazan delay; the only green sleeve Tuesday [^2^]"
+    },
+    {
+      "sector": "memory (DRAM)",
+      "day_change_pct": 2.6,
+      "week_change_pct": -3.28,
+      "read": "leading",
+      "note": "Korea chip exports +155%; MU sold out 2026 — but ETF still -17% under SMA50 [^6^][^21^]"
+    },
+    {
+      "sector": "software (IGV)",
+      "day_change_pct": -1.04,
+      "week_change_pct": 1.88,
+      "read": "neutral",
+      "note": "Cyber rotation PANW/CRWD/NET +3-6% on AI-agent hacking reports; IGV above SMA50 [^9^]"
+    },
+    {
+      "sector": "megacap tech (QQQ)",
+      "day_change_pct": -0.34,
+      "week_change_pct": -0.75,
+      "read": "neutral",
+      "note": "Light RVOL 0.70 pre-CPI; above both MAs"
+    },
+    {
+      "sector": "semis (SMH)",
+      "day_change_pct": 0.62,
+      "week_change_pct": -0.48,
+      "read": "lagging",
+      "note": "Below SMA50 594; SOX -2.55% Mon on circular-financing fears [^9^]"
+    },
+    {
+      "sector": "financials (XLF)",
+      "day_change_pct": -0.02,
+      "week_change_pct": -0.14,
+      "read": "neutral",
+      "note": "V leading discovery; HOOD managed below its MAs"
+    }
+  ],
+  "book_conflicts": [
+    {
+      "ticker": "KTOS",
+      "report_read": "bullish (breakout over 63.6, Q2 beat + Javelin award)",
+      "our_book": "exit_pending",
+      "conflict": true,
+      "note": "External bullish call does not reverse broker-confirmed exit — no new entries"
+    },
+    {
+      "ticker": "PLTR",
+      "report_read": "bullish trend (+39%/5 sessions, Q2 +93%)",
+      "our_book": "managed_trim",
+      "conflict": true,
+      "note": "Trend read never authorizes adds at RSI 74 / IVR 100 — manage existing only"
+    },
+    {
+      "ticker": "RGTI",
+      "report_read": "neutral (below SMA50, -68% off high)",
+      "our_book": "managed_hold",
+      "conflict": false,
+      "note": "Read and book agree — hold managed, no adds"
+    },
+    {
+      "ticker": "HOOD",
+      "report_read": "neutral (below SMA20/50)",
+      "our_book": "managed_hold",
+      "conflict": false,
+      "note": "Read and book agree — hold managed, no adds"
+    }
+  ],
