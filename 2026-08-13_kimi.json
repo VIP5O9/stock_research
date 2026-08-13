@@ -1,1 +1,882 @@
-__JSON_CONTENT__
+{
+  "schema_version": "1.0",
+  "date": "2026-08-13",
+  "generated_at_et": "08:45",
+  "as_of_et": "2026-08-12 16:00",
+  "market_session": "closed",
+  "overnight": {
+    "summary": "Wednesday was a risk-on, AI-infra-led session after July CPI printed in line (headline +0.1% m/m / 3.4% y/y; core +0.2% m/m / 2.5% y/y, core y/y down from 2.6%) and Treasury yields eased [^1^][^2^]. S&P 500 +0.26% to 7,748.50, Nasdaq +0.54% to 26,588.49, Dow -0.04%, Russell +0.6%; VIX -4.8% to 14.55, 10Y 4.68% [^3^][^4^]. The tape split hard: AI hardware ripped (NVDA +3.03%, SMCI's FQ4 EPS beat + strong guide [^13^], memory — SK Hynix/SanDisk/Micron jumped after Korea's Aug 1-10 chip exports +155% [^7^]) while software/platforms sagged (META -3.38%, MSFT -2.26%, PLTR -2.23% — 'AI revival hitting software stocks' [^19^]). After the close Cisco beat Q4 with revenue outlook above estimates — but shares slipped AH, a sell-the-news template after a +55-60% YTD run [^5^][^6^]. Overnight Thursday: Samsung/SK Hynix reignited the Kospi rally, heavy buying tripping a five-minute sidecar as AI-spending fears faded [^8^]. Brent held ~$88.5-88.9 flat with Hormuz still blocked (Goldman $120 tail; JPM +$7-8 per month of disruption) [^9^]; gold futures ~$4,470 (+2%). Positioning caution: Burry added to NBIS/MU/ORCL shorts, calling Nebius 'what the top of a boom looks like' [^17^].",
+    "implication": "In-line CPI + confirmed AI capex keeps the memory/equipment bid alive into AMAT's print tonight — but Cisco's beat-and-slip is the template for extended AI names: buy zones, don't chase gaps; PPI 08:30 is the morning's swing."
+  },
+  "macro_calendar": [
+    {
+      "event": "PPI (July)",
+      "datetime_et": "2026-08-13 08:30",
+      "consensus": "n/v (not verified at generation; prints 15 min before this report — verify at open)",
+      "implication": "hot PPI after in-line CPI revives Sept-hike pricing and trims the AI-infra rally; cool print extends it [^18^]"
+    },
+    {
+      "event": "AMAT FQ3 earnings (book catalyst)",
+      "datetime_et": "2026-08-13 16:05",
+      "consensus": "guide rev $8.95B ± $0.5B, non-GAAP EPS $3.36 ± $0.20; street ~$3.38 [^14^][^15^]; options imply ±9.8% [^16^]",
+      "implication": "WFE/DRAM read-through for SMH/LRCX/EUV/DRAM sleeve; FCF conversion (Q2 was $210M, -80% y/y) is the tell, not the revenue midpoint [^14^]"
+    },
+    {
+      "event": "Retail sales (July)",
+      "datetime_et": "2026-08-14 08:30",
+      "consensus": "n/v (not verified at generation)",
+      "implication": "consumer check after CPI; hot = cut odds down, V/consumer names wobble [^18^]"
+    },
+    {
+      "event": "NVDA earnings (book-wide freeze)",
+      "datetime_et": "2026-08-26 16:20",
+      "consensus": "n/v",
+      "implication": "no new AI/semi entries that week (book rule); vault held through the print"
+    }
+  ],
+  "sector_rotation": [
+    {
+      "sector": "memory (DRAM)",
+      "day_change_pct": 7.68,
+      "week_change_pct": 1.97,
+      "read": "leading",
+      "note": "Korea chip exports +155% ignited SK Hynix/SanDisk/Micron [^7^]; MU +4.9% — but ETF still -10% under SMA50 60.7; Burry shorting the group [^17^]"
+    },
+    {
+      "sector": "AI software (AIS)",
+      "day_change_pct": 4.34,
+      "week_change_pct": 3.72,
+      "read": "leading",
+      "note": "Basket bounce +4.3% on matching gap; reclaimed SMA20 67, still under SMA50 73.6"
+    },
+    {
+      "sector": "semis (SMH)",
+      "day_change_pct": 2.08,
+      "week_change_pct": 2.66,
+      "read": "leading",
+      "note": "+3.1% gap held into AMAT tonight; still below SMA50 593 — print decides"
+    },
+    {
+      "sector": "megacap tech (QQQ)",
+      "day_change_pct": 0.73,
+      "week_change_pct": 0.89,
+      "read": "neutral",
+      "note": "Post-CPI grind, above both MAs; RVOL 0.70 still light — conviction thin ahead of PPI"
+    },
+    {
+      "sector": "software (IGV)",
+      "day_change_pct": -0.81,
+      "week_change_pct": 1.75,
+      "read": "lagging",
+      "note": "AI-infra rotation hit platforms: META -3.4%, MSFT -2.3%, PLTR -2.2% [^19^]"
+    },
+    {
+      "sector": "energy (XLE)",
+      "day_change_pct": 0.16,
+      "week_change_pct": 6.49,
+      "read": "neutral",
+      "note": "Week's leader pausing; Brent flat ~$88.5 with Hormuz premium intact [^9^]"
+    },
+    {
+      "sector": "gold miners (GDX)",
+      "day_change_pct": 0.93,
+      "week_change_pct": 8.7,
+      "read": "leading",
+      "note": "Gold futures ~$4,470 (+2%) on war bid + easing hopes; book lane watching 86-89 zone"
+    }
+  ],
+  "book_conflicts": [
+    {
+      "ticker": "KTOS",
+      "report_read": "bullish (breakout holding 62-64; analysts see ~66% upside [^21^])",
+      "our_book": "exit_pending",
+      "conflict": true,
+      "note": "External bullish calls do not reverse broker-confirmed exit — no new entries regardless of setup"
+    },
+    {
+      "ticker": "PLTR",
+      "report_read": "bullish-trend consolidation (+21% over SMA20; Q2 +93% [^37^])",
+      "our_book": "managed_trim",
+      "conflict": true,
+      "note": "No adds at RSI 70 / IVR 100 — manage existing only; book stop 165 stands"
+    },
+    {
+      "ticker": "RGTI",
+      "report_read": "neutral-improving (reclaimed SMA50 18.07)",
+      "our_book": "managed_hold",
+      "conflict": false,
+      "note": "Read and book agree — hold managed, no adds"
+    },
+    {
+      "ticker": "HOOD",
+      "report_read": "neutral (below SMA20/50)",
+      "our_book": "managed_hold",
+      "conflict": false,
+      "note": "Read and book agree — hold managed, no adds"
+    }
+  ],
+  "tickers": [
+    {
+      "ticker": "NVDA",
+      "price": 224.09,
+      "chg_pct": 3.03,
+      "gap_pct": 1.63,
+      "rvol": 0.85,
+      "atr_pct": 3.35,
+      "sma20": 208.38,
+      "sma50": 206.25,
+      "sma200": 194.38,
+      "rsi14": 62,
+      "iv30": 41.1,
+      "ivr": 68,
+      "support": 208,
+      "resistance": 236,
+      "buy_zone": [
+        216,
+        222
+      ],
+      "invalidation": 205,
+      "target": [
+        236,
+        250
+      ],
+      "catalyst": "Earnings 2026-08-26 AMC; $500B AI-infra alliance (Apollo/Blackstone/BlackRock/Brookfield/GS/KKR) [^11^]; BLK read-through [^38^]",
+      "flag": "🟢",
+      "flag_reason": "+3.03% post-CPI, closed at 225 res on AI-infra bid; Huang chip-securitization plan drawing 2008 comparisons [^12^]; Malaysia permit checks (prior)",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "Buy 208-216 / <205 — gapped +1.6% over zone (low 220.2), closed 224.1; zone never hit",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "230C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 68 — premium mid-high into 8/26 earnings; prefer zone entry over chasing the breakout"
+      }
+    },
+    {
+      "ticker": "META",
+      "price": 578.85,
+      "chg_pct": -3.38,
+      "gap_pct": 0.43,
+      "rvol": 0.94,
+      "atr_pct": 3.93,
+      "sma20": 600.96,
+      "sma50": 597.75,
+      "sma200": 628.33,
+      "rsi14": 44,
+      "iv30": 35.8,
+      "ivr": 98,
+      "support": 575,
+      "resistance": 606,
+      "buy_zone": [
+        565,
+        575
+      ],
+      "invalidation": 560,
+      "target": [
+        598,
+        628
+      ],
+      "catalyst": "Open-source pivot: Muse Glimmer 30B out, Spark 1.2 weights pledged [^26^]; manifesto slammed as 'fantastical' [^10^]; Alberta $13B DC protests [^12^]",
+      "flag": "🟡",
+      "flag_reason": "-3.38% Wed — worst megacap; knifed below SMA50 597.8 on AI-strategy reboot skepticism; capex guide $125-145B [^10^]",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "Buy 585-598 / <575 — low 578.25 knifed through zone, closed 578.85 below it; invalidation 575 held",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "590C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 98 — realized-vol percentile extreme; spreads/buy-write only, no naked calls"
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "price": 416.05,
+      "chg_pct": -0.01,
+      "gap_pct": 2.45,
+      "rvol": 0.78,
+      "atr_pct": 3.8,
+      "sma20": 396.21,
+      "sma50": 393.3,
+      "sma200": 367.75,
+      "rsi14": 58,
+      "iv30": 50.3,
+      "ivr": 30,
+      "support": 394,
+      "resistance": 433,
+      "buy_zone": [
+        398,
+        412
+      ],
+      "invalidation": 394,
+      "target": [
+        433,
+        455
+      ],
+      "catalyst": "Custom-AI/TPU tailwind; hyperscaler capex intact (AMZN $216B NTM) [^27^]",
+      "flag": "🟢",
+      "flag_reason": "Flat (-0.01%) after +2.5% gap faded; still above SMA20/50 ~395; semi CDS/financing narrative lingers [^27^]",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "Buy 398-412 / <394 — low 414.61, zone not hit; closed 416.05 just above zone top",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "430C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 30 — cheap-ish vol for this name; zone entry with defined risk"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "price": 327.51,
+      "chg_pct": -1.59,
+      "gap_pct": 0.66,
+      "rvol": 0.71,
+      "atr_pct": 4.13,
+      "sma20": 333.62,
+      "sma50": 374.39,
+      "sma200": 407.1,
+      "rsi14": 41,
+      "iv30": 39.0,
+      "ivr": 94,
+      "support": 297,
+      "resistance": 350,
+      "buy_zone": [
+        297,
+        305
+      ],
+      "invalidation": 290,
+      "target": [
+        350,
+        376
+      ],
+      "catalyst": "Robotaxi ~6 cities, unsupervised Austin-only; Q2 fleet miles fell (prior report)",
+      "flag": "🔴",
+      "flag_reason": "-1.59% Wed on a risk-on day; below SMA20 334 and 12.5% under SMA50 374 (RSI 41); no momentum trigger",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "No buy until 350 reclaimed — closed 327.5, further below; deep support 297",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "340C",
+        "expiry": "2026-09-18",
+        "notes": "No play — flag 🔴; stand aside until 350 reclaimed (defined-risk only if forced)"
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "price": 267.28,
+      "chg_pct": -1.83,
+      "gap_pct": 0.34,
+      "rvol": 0.59,
+      "atr_pct": 3.3,
+      "sma20": 254.99,
+      "sma50": 247.74,
+      "sma200": 237.32,
+      "rsi14": 57,
+      "iv30": 31.1,
+      "ivr": 98,
+      "support": 247,
+      "resistance": 287,
+      "buy_zone": [
+        255,
+        262
+      ],
+      "invalidation": 247,
+      "target": [
+        284,
+        300
+      ],
+      "catalyst": "Citi PT $350 on AWS margins/AI ROI (prior report); +$20B capex [^27^]",
+      "flag": "🟢",
+      "flag_reason": "-1.83% Wed, second down day — pullback extending toward 255-262 zone; trend above SMA20/50 intact",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "Buy 255-262 / <247 — fell to 267.3 (low 267.1), zone closer, still not hit",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "275C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 98 — vol percentile high; wait for zone, consider put-sale at 247 invalidation"
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "price": 302.25,
+      "chg_pct": -0.87,
+      "gap_pct": 0.07,
+      "rvol": 0.69,
+      "atr_pct": 2.82,
+      "sma20": 320.98,
+      "sma50": 309.23,
+      "sma200": 279.58,
+      "rsi14": 40,
+      "iv30": 25.6,
+      "ivr": 96,
+      "support": 290,
+      "resistance": 322,
+      "buy_zone": [
+        295,
+        300
+      ],
+      "invalidation": 290,
+      "target": [
+        309,
+        322
+      ],
+      "catalyst": "Only megacap with rising FCF (est $30.1B) [^27^]; CXMT memory-supply bet [^24^]",
+      "flag": "🟡",
+      "flag_reason": "-0.87% Wed; below SMA20 321 and SMA50 309, RSI 40 — defensive but drifting toward zone",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "295-300 / <290 — low 300.57 grazed zone top, closed 302.25",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "310C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 96 — elevated percentile but low absolute IV (26); defensive overwrite candidate"
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "price": 492.43,
+      "chg_pct": -2.26,
+      "gap_pct": -0.71,
+      "rvol": 0.69,
+      "atr_pct": 3.01,
+      "sma20": 440.37,
+      "sma50": 410.3,
+      "sma200": 431.6,
+      "rsi14": 71,
+      "iv30": 28.0,
+      "ivr": 97,
+      "support": 445,
+      "resistance": 514,
+      "buy_zone": [
+        460,
+        475
+      ],
+      "invalidation": 445,
+      "target": [
+        515,
+        539
+      ],
+      "catalyst": "OpenAI S-1 due mid-late Aug — first disclosure of MSFT revenue-share [^26^]",
+      "flag": "🔴",
+      "flag_reason": "-2.26% Wed — software hit by AI-infra rotation [^19^]; RSI 71 still +11.9% over SMA20; no chase",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "Stagger 460-475 / <445 — never approached; closed 492.43",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "500C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 97 — extended + high percentile; no premium chase at RSI 71"
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "price": 171.04,
+      "chg_pct": -2.23,
+      "gap_pct": -0.45,
+      "rvol": 0.75,
+      "atr_pct": 4.99,
+      "sma20": 141.22,
+      "sma50": 133.81,
+      "sma200": 152.2,
+      "rsi14": 70,
+      "iv30": 47.6,
+      "ivr": 100,
+      "support": 158,
+      "resistance": 195,
+      "buy_zone": [
+        158,
+        166
+      ],
+      "invalidation": 150,
+      "target": [
+        195,
+        207
+      ],
+      "catalyst": "Q2 rev +93%, FY guide ~$8.15B [^37^]; Burry shorted again, 'worth under $1' [^20^] vs 'thesis looks broken' counter [^17^]",
+      "flag": "🔴",
+      "flag_reason": "-2.23% Wed on software rotation [^19^]; +21% over SMA20, RSI 70, IVR 100; book = managed/trim, stop 165 — no adds",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "Buy only 158-166 / <150 — low 168.34, zone never hit; closed 171.04; book stop 165 intact",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "175C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 100 — max percentile; managed book: no adds, covered-call trim only"
+      }
+    },
+    {
+      "ticker": "KTOS",
+      "price": 63.82,
+      "chg_pct": 0.14,
+      "gap_pct": 0.19,
+      "rvol": 0.82,
+      "atr_pct": 5.79,
+      "sma20": 51.56,
+      "sma50": 52.61,
+      "sma200": 73.93,
+      "rsi14": 71,
+      "iv30": 69.0,
+      "ivr": 30,
+      "support": 52,
+      "resistance": 66,
+      "buy_zone": [
+        58,
+        61
+      ],
+      "invalidation": 52,
+      "target": [
+        70,
+        75
+      ],
+      "catalyst": "Q2 beat + raise (8/4); Javelin award (8/6) [^34^]; analysts see ~66% upside [^21^]; +21.4% in 3 months",
+      "flag": "🟢",
+      "flag_reason": "+0.14% Wed, held 62-64 breakout shelf; RSI 71; BOOK CONFLICT: exit_pending — no new entries",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "58-61 / <52 — held 62.1-64.2, zone never hit; broker exit stands",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "65C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 30 — BOOK CONFLICT exit_pending: no new positions regardless of setup"
+      }
+    },
+    {
+      "ticker": "RGTI",
+      "price": 18.42,
+      "chg_pct": 1.82,
+      "gap_pct": 2.65,
+      "rvol": 0.77,
+      "atr_pct": 6.81,
+      "sma20": 15.7,
+      "sma50": 18.07,
+      "sma200": 20.83,
+      "rsi14": 58,
+      "iv30": 77.5,
+      "ivr": 32,
+      "support": 16.5,
+      "resistance": 21,
+      "buy_zone": [
+        16.5,
+        18
+      ],
+      "invalidation": 14,
+      "target": [
+        21,
+        25
+      ],
+      "catalyst": "Q2 print 8/10 digesting; $100M CHIPS LOI; C-DAC export; Cepheus-1-108Q GA [^35^]",
+      "flag": "🟡",
+      "flag_reason": "+1.82% Wed, reclaimed SMA50 18.07 on +2.65% gap; still ~68% off 52w high; managed book only",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "Managed book carry — +1.8% to 18.42, back above SMA50",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "19C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 32 but absolute IV 77 — lottery ticket; managed book, no adds"
+      }
+    },
+    {
+      "ticker": "HOOD",
+      "price": 94.91,
+      "chg_pct": 0.56,
+      "gap_pct": 2.89,
+      "rvol": 0.64,
+      "atr_pct": 5.63,
+      "sma20": 95.42,
+      "sma50": 98.62,
+      "sma200": 97.72,
+      "rsi14": 48,
+      "iv30": 59.2,
+      "ivr": 16,
+      "support": 85,
+      "resistance": 99,
+      "buy_zone": [
+        88,
+        91
+      ],
+      "invalidation": 85,
+      "target": [
+        105,
+        115
+      ],
+      "catalyst": "Polymarket staffs up for US prediction-mkt test [^22^]; 'crypto slump headlines, 10x business ignored' [^23^]; UK crypto push [^36^]",
+      "flag": "🟡",
+      "flag_reason": "+0.56% Wed after +2.9% gap faded; below SMA20 95.4 and SMA50 98.6; managed book",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "Managed book carry — +0.6% to 94.91, still below both MAs",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "100C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 16 — vol percentile low; managed book, no adds"
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "price": 723.7,
+      "chg_pct": 0.73,
+      "gap_pct": 1.19,
+      "rvol": 0.7,
+      "atr_pct": 1.85,
+      "sma20": 701.03,
+      "sma50": 713.29,
+      "sma200": 648.41,
+      "rsi14": 57,
+      "iv30": 20.1,
+      "ivr": 81,
+      "support": 713,
+      "resistance": 748,
+      "buy_zone": [
+        705,
+        714
+      ],
+      "invalidation": 690,
+      "target": [
+        745,
+        760
+      ],
+      "catalyst": "CPI in-line 8/12 [^1^]; PPI 8/13 08:30 + AMAT AMC are the day's swing [^18^]",
+      "flag": "🟢",
+      "flag_reason": "+0.73% Wed post-CPI; above SMA20/50; VIX 14.55 (-4.8%) [^4^]; RVOL still light 0.70",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "Buy 705-714 / <690 — low 722.92, zone not hit; closed 723.70",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "735C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 81 — event premium persists into PPI/AMAT; post-print entries only"
+      }
+    },
+    {
+      "ticker": "SMH",
+      "price": 584.83,
+      "chg_pct": 2.08,
+      "gap_pct": 3.07,
+      "rvol": 0.55,
+      "atr_pct": 4.04,
+      "sma20": 561.53,
+      "sma50": 593.35,
+      "sma200": 459.48,
+      "rsi14": 53,
+      "iv30": 41.9,
+      "ivr": 81,
+      "support": 561,
+      "resistance": 607,
+      "buy_zone": [
+        555,
+        570
+      ],
+      "invalidation": 525,
+      "target": [
+        607,
+        635
+      ],
+      "catalyst": "AMAT FQ3 tonight 16:05 — WFE read-through [^14^]; Korea chip exports +155% [^7^]; TSMC July +45% [^26^]",
+      "flag": "🟡",
+      "flag_reason": "+2.08% Wed on +3.1% gap; still below SMA50 593 into the AMAT binary",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "555-570 / <525 — gapped over zone, closed 584.83 above; AMAT tonight decides follow-through",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "600C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 81 — semi vol firm into AMAT; spreads over naked"
+      }
+    },
+    {
+      "ticker": "AIS",
+      "price": 71.12,
+      "chg_pct": 4.34,
+      "gap_pct": 4.34,
+      "rvol": 0.6,
+      "atr_pct": 5.2,
+      "sma20": 67.01,
+      "sma50": 73.6,
+      "sma200": 53.13,
+      "rsi14": 53,
+      "iv30": 53.7,
+      "ivr": 83,
+      "support": 67,
+      "resistance": 75,
+      "buy_zone": [
+        67.5,
+        70
+      ],
+      "invalidation": 63,
+      "target": [
+        75,
+        80
+      ],
+      "catalyst": "AI-software basket +4.3% reclaim day; cyber rotation (PANW/CRWD/NET) earlier in week [^26^]",
+      "flag": "🟡",
+      "flag_reason": "+4.34% Wed on matching +4.34% gap; above SMA20 67, still below SMA50 73.6",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "63-66 / <60 — gapped through zone, closed 71.12 above; moved away",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "75C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 83 (thin chain, quarterlies) — wide spreads; small size only"
+      }
+    },
+    {
+      "ticker": "EUV",
+      "price": 27.07,
+      "chg_pct": 4.64,
+      "gap_pct": 4.37,
+      "rvol": 1.83,
+      "atr_pct": 5.6,
+      "sma20": 24.58,
+      "sma50": 26.78,
+      "sma200": null,
+      "rsi14": 56,
+      "iv30": 70.5,
+      "ivr": 42,
+      "support": 26.6,
+      "resistance": 29,
+      "buy_zone": [
+        25.5,
+        26.5
+      ],
+      "invalidation": 24.5,
+      "target": [
+        29,
+        32
+      ],
+      "catalyst": "Equipment bid into AMAT FQ3 tonight [^14^]; litho niche follow-through",
+      "flag": "🟢",
+      "flag_reason": "+4.64% Wed on RVOL 1.83 — cleared SMA50 26.78 into the print; binary tonight",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "24-25 / <22.5 — gapped +4.4% away from zone, closed 27.07 over SMA50",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "28C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 42 (thin chain, quarterlies only) — wide spreads; small size only"
+      }
+    },
+    {
+      "ticker": "DRAM",
+      "price": 54.8,
+      "chg_pct": 7.68,
+      "gap_pct": 7.3,
+      "rvol": 0.69,
+      "atr_pct": 7.93,
+      "sma20": 52.55,
+      "sma50": 60.74,
+      "sma200": null,
+      "rsi14": 50,
+      "iv30": 72.6,
+      "ivr": 41,
+      "support": 50.9,
+      "resistance": 61,
+      "buy_zone": [
+        50,
+        53
+      ],
+      "invalidation": 46,
+      "target": [
+        61,
+        66
+      ],
+      "catalyst": "Memory rally: SK Hynix/SanDisk/Micron jump [^7^]; MU sold out 2026 [^30^]; HBM4 for Vera Rubin [^25^]; Korea exports +155% [^7^]",
+      "flag": "🟡",
+      "flag_reason": "+7.68% Wed on +7.3% gap — biggest book mover; still -10% under SMA50 60.7; Burry added MU short [^17^]; vault held",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "45-48 / <43 — gapped +7.3% on the memory rally, closed 54.80; zone left behind",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "55C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 41 — contrarian zone 50-53 with defined risk; vault name, no chase"
+      }
+    },
+    {
+      "ticker": "V",
+      "price": 359.42,
+      "chg_pct": -0.94,
+      "gap_pct": -0.5,
+      "rvol": 0.41,
+      "atr_pct": 2.07,
+      "sma20": 361.97,
+      "sma50": 345.86,
+      "sma200": 329.77,
+      "rsi14": 52,
+      "iv30": 22.7,
+      "ivr": 48,
+      "support": 345,
+      "resistance": 370,
+      "buy_zone": [
+        352,
+        360
+      ],
+      "invalidation": 345,
+      "target": [
+        395,
+        412
+      ],
+      "catalyst": "Q3 FY26 beat: rev $11.63B +14%, EPS $3.32; PTs $412-440 [^33^]",
+      "flag": "🟢",
+      "flag_reason": "Discovery leader: -0.94% Wed into the zone (low 358.33 tagged); above SMA50 345.9; RSI 52 — cleanest risk/reward in stack",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "352-360 / <345 — low 358.33 tagged zone, closed 359.42 inside — discovery entry live",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "370C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 48 — low absolute IV (23); clean trend, zone entry"
+      }
+    },
+    {
+      "ticker": "TXN",
+      "price": 276.59,
+      "chg_pct": -1.65,
+      "gap_pct": 2.98,
+      "rvol": 0.74,
+      "atr_pct": 4.26,
+      "sma20": 280.45,
+      "sma50": 292.18,
+      "sma200": 228.52,
+      "rsi14": 45,
+      "iv30": 44.9,
+      "ivr": 57,
+      "support": 265,
+      "resistance": 292,
+      "buy_zone": [
+        265,
+        275
+      ],
+      "invalidation": 255,
+      "target": [
+        292,
+        310
+      ],
+      "catalyst": "Citi top pick; analog/industrial recovery [^28^]; new CFO Knecht eff. 8/1",
+      "flag": "🟡",
+      "flag_reason": "-1.65% Wed — +3% gap fully faded, analog lagging AI-semi beta; below SMA20 280 and SMA50 292; 39x fwd P/E rich [^28^]",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "265-275 / <255 — low 276.36 grazed zone top, closed 276.59",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "285C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 57 — mid; zone entry only, rich multiple argues for defined risk"
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "price": 548.15,
+      "chg_pct": 4.29,
+      "gap_pct": 4.47,
+      "rvol": 0.82,
+      "atr_pct": 6.54,
+      "sma20": 526.73,
+      "sma50": 557.87,
+      "sma200": 385.3,
+      "rsi14": 52,
+      "iv30": 68.9,
+      "ivr": 86,
+      "support": 475,
+      "resistance": 558,
+      "buy_zone": [
+        490,
+        510
+      ],
+      "invalidation": 475,
+      "target": [
+        556,
+        600
+      ],
+      "catalyst": "FQ3 earnings TONIGHT AMC (call 16:30 ET) — guide rev $8.95B±$0.5B, EPS $3.36±$0.20; cons ~$3.38 [^14^][^15^]; options imply ±9.8% [^16^]",
+      "flag": "🟡",
+      "flag_reason": "+4.29% Wed pre-print on +4.5% gap; above SMA20 527, below SMA50 558; binary tonight — FCF conversion is the tell [^14^]",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "490-510 / <475 — gapped +4.5% pre-print, closed 548.15; no pre-earnings chase",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "560C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 86 into tonight's print — no pre-earnings premium buys; post-print zone only"
+      }
+    },
+    {
+      "ticker": "LLY",
+      "price": 1220.28,
+      "chg_pct": 0.43,
+      "gap_pct": -1.09,
+      "rvol": 0.55,
+      "atr_pct": 3.38,
+      "sma20": 1179.97,
+      "sma50": 1164.62,
+      "sma200": 1037.61,
+      "rsi14": 58,
+      "iv30": 35.0,
+      "ivr": 45,
+      "support": 1164,
+      "resistance": 1249,
+      "buy_zone": [
+        1170,
+        1190
+      ],
+      "invalidation": 1135,
+      "target": [
+        1249,
+        1300
+      ],
+      "catalyst": "Foundayo (orforglipron) FDA-approved 4/1 [^31^]; $1.5B launch inventory [^32^]",
+      "flag": "🟢",
+      "flag_reason": "+0.43% Wed, shook off -1.1% gap-down open (low 1191); above SMA20/50; defensive growth anchor",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "1170-1190 / <1135 — low 1191.08 missed zone by a point, closed 1220.28",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "1250C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 45 — moderate; trend-following zone entry"
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "price": 326.11,
+      "chg_pct": 4.72,
+      "gap_pct": 4.95,
+      "rvol": 0.65,
+      "atr_pct": 6.99,
+      "sma20": 304.62,
+      "sma50": 337.59,
+      "sma200": 247.49,
+      "rsi14": 53,
+      "iv30": 64.9,
+      "ivr": 89,
+      "support": 305,
+      "resistance": 337,
+      "buy_zone": [
+        305,
+        315
+      ],
+      "invalidation": 280,
+      "target": [
+        337,
+        365
+      ],
+      "catalyst": "FQ4 beat: rev $6.72B +30%, GM ~2-decade high [^29^]; AMAT read-through tonight",
+      "flag": "🟡",
+      "flag_reason": "+4.72% Wed on +5% gap into AMAT print; above SMA20 305, below SMA50 337.6; IVR 89 — rich premium",
+      "as_of_et": "2026-08-12 16:00",
+      "yesterday_call": "290-303 / <280 — gapped +5% away from zone, closed 326.11; AMAT tonight is the swing",
+      "option_play": {
+        "is_options_eligible": true,
+        "preferred_strike": "335C",
+        "expiry": "2026-09-18",
+        "notes": "IVR 89 — rich premium; spreads only"
+      }
+    }
+  ],
+  "verification": {
+    "prices_live": 21,
+    "prices_unverified": 0,
+    "sources_cited": 39,
+    "notes": "Prices/indicators = Yahoo Finance 1y daily bars as of 2026-08-12 16:00 ET close; gap = 8/12 open vs 8/11 close; IV30 = ATM call IV, 2026-09-11 expiry (09-18 for AIS/EUV, quarterlies only); IVR = 1y percentile of 30d realized vol (proxy — no free IV-history feed); index closes cross-checked vs AP wrap [^3^][^39^]"
+  }
+}
